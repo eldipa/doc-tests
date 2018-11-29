@@ -3,8 +3,6 @@ Check that we have byexample installed first
 $ hash byexample                                    # byexample: +fail-fast
 -->
 
-# ``byexample``
-
 <img src="https://api.travis-ci.org/byexamples/byexample.svg?branch=master" alt="Travis CI is not available">
 
 ``byexample`` is a literate programming engine where you mix
@@ -54,9 +52,9 @@ $ byexample -l python,ruby,shell README.md      # run it    # byexample: +skip
 ```
 
 You can select which languages to run, over which files, how to display the
-[differences](https://byexamples.github.io/byexample/overview/differences) and much more.
+[differences](https://byexamples.github.io/byexample/differences) and much more.
 
-The [usage](https://byexamples.github.io/byexample/overview/usage)
+The [usage](https://byexamples.github.io/byexample/usage)
 document goes through almost all the flags that
 ``byexample`` program has, full of examples of course.
 
@@ -106,10 +104,10 @@ an interpreter session like example.
 
 Take a look to the documentation of each language [docs/languages](https://github.com/byexamples/byexample/tree/master/docs/languages/).
 
-Check out [where should I write the examples](https://byexamples.github.io/byexample/overview/where-should-I-write-the-examples)
+Check out [where should I write the examples](https://byexamples.github.io/byexample/where-should-I-write-the-examples)
 section, it has a more in deep description.
 
-And also check the [usage](https://byexamples.github.io/byexample/overview/usage) page
+And also check the [usage](https://byexamples.github.io/byexample/usage) page
 for more examples.
 
 ## Languages supported
@@ -148,8 +146,8 @@ It is possible to extend ``byexample`` adding new ways to find examples in a
 document and/or to parse and run/interpret a new language or adding hooks to be
 called regardless of the language/interpreter.
 
-Check out [how to support new finders and languages](https://byexamples.github.io/byexample/contrib/how-to-support-new-finders-and-languages)
-and [how to hook to events with concerns](https://byexamples.github.io/byexample/contrib/how-to-hook-to-events-with-concerns) for
+Check out [how to support new finders and languages](https://byexamples.github.io/byexample/how-to-support-new-finders-and-languages)
+and [how to hook to events with concerns](https://byexamples.github.io/byexample/how-to-hook-to-events-with-concerns) for
 a quick tutorials that shows exactly how to do that.
 
 You could also share your work and [contribute](https://github.com/byexamples/byexample/tree/master/CONTRIBUTING.md) to
