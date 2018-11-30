@@ -123,7 +123,7 @@ Anonymous functions can be *created as part of* a larger example.
 Some objects are printed with a trailing whitespace.
 
 This is not a problem unless you are using a ``as-is``
-[terminal emulation](docs/advanced/terminal-emulation.md).
+[terminal emulation](/{{ site.uprefix }}/advanced/terminal-emulation).
 
 ### Too deep nested objects
 

@@ -16,8 +16,8 @@ You can extend ``byexample`` adding:
  - support new languages and interpreters
  - new reports and other things
 
-Check out [how to support new finders and languages](how-to-support-new-finders-and-languages.md)
-and [how to hook to events with concerns](how-to-hook-to-events-with-concerns.md) for more info.
+Check out [how to support new finders and languages](how-to-support-new-finders-and-languages)
+and [how to hook to events with concerns](how-to-hook-to-events-with-concerns) for more info.
 
 It is easier than you think!
 

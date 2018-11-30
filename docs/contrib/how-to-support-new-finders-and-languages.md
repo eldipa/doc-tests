@@ -31,7 +31,7 @@ The first thing to teach ``byexample`` is how to find a ``ArnoldC``
 example.
 
 ``byexample`` already has a generic finder, the
-[fenced code block finder](docs/overview/where-should-I-write-the-examples.md).
+[fenced code block finder](/{{ site.uprefix }}/overview/where-should-I-write-the-examples).
 
 But just for fun, let's imagine that we want to do something different.
 Let's say that our examples are enclosed by the ``~~~`` strings: anything
@@ -148,7 +148,7 @@ part of the example:
 ```
 
 Check also how this is
-[seen and used](docs/overview/where-should-I-write-the-examples.md)
+[seen and used](/{{ site.uprefix }}/overview/where-should-I-write-the-examples)
 by the user of your new language.
 
 ### Detect the language
@@ -257,7 +257,7 @@ extract the options that ``byexample`` uses to customize the example.
 
 ### Get the options
 
-The [options](docs/basic/options.md) can be of any form and be in any place.
+The [options](/{{ site.uprefix }}/basic/options) can be of any form and be in any place.
 
 Typically we can write the options in the comments of the code which obviously
 will depend of the language.
@@ -448,7 +448,7 @@ the examples that it will execute or in the options passed from the command
 line.
 
 The ``options`` parameter are the parsed options (plus the
-[options](docs/basic/options.md) that come from the command line).
+[options](/{{ site.uprefix }}/basic/options) that come from the command line).
 
 It is in the ``run`` method where the magic happen.
 

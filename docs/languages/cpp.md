@@ -77,10 +77,10 @@ out:
 ## Terminal support
 
 To work with the current CPP interpreter, ``cling``, the ANSI
-[terminal emulator](docs/advanced/terminal-emulation.md) is
+[terminal emulator](/{{ site.uprefix }}/advanced/terminal-emulation) is
 enabled by default (``+term=ansi``) and cannot be disabled.
 
-Also, the [terminal geometry](docs/advanced/geometry.md)
+Also, the [terminal geometry](/{{ site.uprefix }}/advanced/geometry)
 cannot by changed after launching the interpreter
 so the option ``+geometry`` cannot be used in an example (but it can be
 used from the command line)
