@@ -1,4 +1,4 @@
-# How to Hook to Events with Concerns
+# How to Hook to Events
 
 There are three different ways in which ``byexample`` can be extended:
 

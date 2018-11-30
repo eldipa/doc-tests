@@ -1,4 +1,4 @@
-# How to support new finders and languages
+# Add New Languages
 
 There are three different ways in which ``byexample`` can be extended:
 
@@ -14,7 +14,7 @@ What classes will depend of what you want to extend or customize.
 
 In this ``how-to`` we will go through the first two items: how to support
 new finders and languages. Check
-[how to hook to events with concerns](docs/contrib/how-to-hook-to-events-with-concerns.md)
+[how to hook to events with concerns](/{{ site.uprefix }}/contrib/how-to-hook-to-events-with-concerns)
 for a ``how-to`` about the last one.
 
 Let's show this by example.

@@ -7,7 +7,7 @@ $ alias byexample=byexample\ --pretty\ none
 --
 -->
 
-# Unicode support
+# Unicode Support
 
 ``byexample`` has full support for unicode examples.
 

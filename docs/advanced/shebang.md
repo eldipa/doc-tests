@@ -7,7 +7,7 @@ $ alias byexample=byexample\ --pretty\ none
 --
 -->
 
-# Changing the Runner: Shebang
+# Shebang
 
 The examples are executed by a specific runner based on the language of
 the examples.

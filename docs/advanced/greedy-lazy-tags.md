@@ -1,4 +1,4 @@
-# Greedy/Lazy Tags
+# Greedy and Lazy Tags
 
 A tag is marked with the symbols ``<`` and ``>`` and can be of two types:
 named like ``<foo-name>`` or unamed like ``<...>``.
