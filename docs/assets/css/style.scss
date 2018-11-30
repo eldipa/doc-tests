@@ -38,3 +38,21 @@ border-radius: 0.3rem;
       border: 0;
     }
 }
+
+
+header h2 {
+  width: 710px;
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  header h2 {
+    width: 550px;
+    font-size: 25px;
+  }
+
+  header {
+      padding-top: 25px;
+      padding-bottom: 25px;
+  }
+}
