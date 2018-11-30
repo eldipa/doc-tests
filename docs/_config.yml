@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 github:
-    owner_name: xx
+    owner_name: XXyyyy
+    owner_url: https://github.com/eldipa
+    repository_name: https://github.com/byexamples/byexample
