@@ -211,7 +211,7 @@ See [norm-ws](/{{ site.uprefix }}/basic/normalize-whitespace),
 [pass](/{{ site.uprefix }}/basic/skip-and-pass) and
 [diff](/{{ site.uprefix }}/overview/differences) for more info.
 
-## Pretty print display hook
+## Pretty print
 
 By default, ``byexample`` uses a custom display hook based on the Python's
 ``pprint`` module.
@@ -251,7 +251,7 @@ versions. Keep that in mind.
 In the future, ``byexample`` may provide a different ``pprint`` stable
 implementation.
 
-## Bytes/Unicode marker
+### Bytes/Unicode marker
 
 ``Python 2.x`` uses ``u'`` and ``u"`` (and ``U'`` and ``U"``) to mark the begin of
 an unicode literal. Optionally one can use ``b'`` to mark the begin of a

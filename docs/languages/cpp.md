@@ -9,7 +9,7 @@ immune to bugs, quirks nor crashes.
 
 Don't forget to send your feedback to the ``cling`` community.
 
-## Variable definition
+### Variable definition
 
 All the variables are global and can be accessed by other examples
 
@@ -26,7 +26,7 @@ out:
 The last expression without ending with a ``;`` is interpreted by
 ``cling`` as the expression to not only eval but also to print its value.
 
-## stdlib
+### stdlib
 
 You can use the ``stdlib`` as usual.
 
@@ -47,7 +47,7 @@ out:
 2
 ```
 
-## Syntax errors
+### Syntax errors
 
 ``byexample`` will show you the syntax errors detected by ``cling``.
 You can even check for them as part of the normal output:
@@ -63,7 +63,9 @@ out:
                  ^
 ```
 
-## Gotchas
+## Known limitations
+
+### Gotchas
 
 To print boolean expressions you need to surround them with parenthesis
 
@@ -74,7 +76,7 @@ out:
 (bool) false
 ```
 
-## Terminal support
+### Terminal support
 
 To work with the current CPP interpreter, ``cling``, the ANSI
 [terminal emulator](/{{ site.uprefix }}/advanced/terminal-emulation) is

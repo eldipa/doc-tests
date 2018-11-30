@@ -197,8 +197,9 @@ $ jobs -l
 > **Note:** ``+stop-on-silence`` requires the job control and monitoring to be
 > enabled (``set -m``).
 
+## Internals
 
-## Using other shells (long story)
+### Using other shells (long story)
 
 **Warning:** this documentation is about *internal details* that may
 not be honored between releases.
@@ -236,7 +237,7 @@ are changed, overriding ours.
 
 If you are sure that it is ok, you can remove the flag.
 
-## Using other shells (short story)
+### Using other shells (short story)
 
 ``byexample`` allows you to use ``--shebang`` to control
 [how to spawn a runner](/{{ site.uprefix }}/advanced/shebang), in this case, the shell.
