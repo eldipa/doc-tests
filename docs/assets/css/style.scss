@@ -59,8 +59,15 @@ header h2 {
 
 .logos img {
     vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logos h3 {
     text-align: center;
+}
+
+.logos h3:before {
+    content: none;
 }
