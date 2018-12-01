@@ -71,3 +71,11 @@ header h2 {
 .logos h3:before {
     content: none !important;
 }
+
+header a.button {
+    box-sizing: initial;
+}
+
+aside#sidebar h3 {
+    font-size: 12px;
+}
