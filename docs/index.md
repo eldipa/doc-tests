@@ -19,29 +19,29 @@ Currently ``byexample`` supports:
 
   <div class="row">
     <div class="col-lg-4">
-      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/python_logo.png" alt="Python Logo" width="64" height="64" />>
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/python_logo.png" alt="Python Logo" width="64" height="64" />
       <h3><a href="/{{ site.prefix }}/languages/python">Python</a></h3>
     </div>
     <div class="col-lg-4">
-      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/ruby_logo.png" alt="Ruby Logo" width="64" height="64" />>
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/ruby_logo.png" alt="Ruby Logo" width="64" height="64" />
       <h3><a href="/{{ site.prefix }}/languages/ruby">Ruby</a></h3>
     </div>
     <div class="col-lg-4">
-      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/bash_logo.png" alt="Bash Logo" width="64" height="64" />>
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/bash_logo.png" alt="Bash Logo" width="64" height="64" />
       <h3><a href="/{{ site.prefix }}/languages/shell">Shell</a></h3>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-4">
-      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/gdb_logo.png" alt="GDB Logo" width="64" height="64" />>
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/gdb_logo.png" alt="GDB Logo" width="64" height="64" />
       <h3><a href="/{{ site.prefix }}/languages/gdb">GDB</a></h3>
     </div>
     <div class="col-lg-4">
-      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/javascript_logo.png" alt="Javascript Logo" width="64" height="64" />>
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/javascript_logo.png" alt="Javascript Logo" width="64" height="64" />
       <h3><a href="/{{ site.prefix }}/languages/javascript">Javascript</a></h3>
     </div>
     <div class="col-lg-4">
-      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/cpp_logo.png" alt="C++ Logo" width="64" height="64" />>
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/cpp_logo.png" alt="C++ Logo" width="64" height="64" />
       <h3><a href="/{{ site.prefix }}/languages/cpp">C/C++</a></h3>
     </div>
   </div>
