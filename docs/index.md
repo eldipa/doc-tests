@@ -21,29 +21,29 @@ Currently ``byexample`` supports:
   <div class="row">
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/python_logo.png" alt="Python Logo" width="64" height="64" />
-      <h3><a href="/{{ site.prefix }}/languages/python">Python</a></h3>
+      <h3><a href="/{{ site.uprefix }}/languages/python">Python</a></h3>
     </div>
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/ruby_logo.png" alt="Ruby Logo" width="64" height="64" />
-      <h3><a href="/{{ site.prefix }}/languages/ruby">Ruby</a></h3>
+      <h3><a href="/{{ site.uprefix }}/languages/ruby">Ruby</a></h3>
     </div>
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/bash_logo.png" alt="Bash Logo" width="64" height="64" />
-      <h3><a href="/{{ site.prefix }}/languages/shell">Shell</a></h3>
+      <h3><a href="/{{ site.uprefix }}/languages/shell">Shell</a></h3>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/gdb_logo.png" alt="GDB Logo" width="64" height="64" />
-      <h3><a href="/{{ site.prefix }}/languages/gdb">GDB</a></h3>
+      <h3><a href="/{{ site.uprefix }}/languages/gdb">GDB</a></h3>
     </div>
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/javascript_logo.png" alt="Javascript Logo" width="64" height="64" />
-      <h3><a href="/{{ site.prefix }}/languages/javascript">Javascript</a></h3>
+      <h3><a href="/{{ site.uprefix }}/languages/javascript">Javascript</a></h3>
     </div>
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/cpp_logo.png" alt="C++ Logo" width="64" height="64" />
-      <h3><a href="/{{ site.prefix }}/languages/cpp">C/C++</a></h3>
+      <h3><a href="/{{ site.uprefix }}/languages/cpp">C/C++</a></h3>
     </div>
   </div>
 </div>
@@ -77,101 +77,6 @@ You can select which languages to run, over which files, how to display the
 The [usage](https://byexamples.github.io/byexample/usage)
 document goes through almost all the flags that
 ``byexample`` program has, full of examples of course.
-
-## What an example looks like?
-
-It is just a snippet of code followed by the expected result:
-
-```python
->>> 1 + 2
-3
-```
-
-or
-
-```python
-1 + 2
-
-out:
-3
-```
-
-The expression ``1 + 2`` is executed and the output compared with ``3`` to
-see if the test passes or not.
-
-## Where should I write the examples?
-
-``byexample`` really doesn't care where you write the examples: you can write
-them in a Markdown, HTML, Latex, or plain text file.
-
-Even you can write them in your own source code to document and test it.
-
-Anything that it is between ````` ```<language> ````` and ````` ``` ````` is considered
-an example: this the Markdown fenced block syntax.
-
-But ``byexample`` detects examples in other contexts as well.
-
-For example in ``Python`` you can use the prompts ``>>>`` and ``...`` to write
-an interpreter session like example.
-
-```python
->>> def add(a, b):
-...   return a + b
-
->>> add(1, 2)
-3
-```
-
-Take a look to the documentation of each language [docs/languages](https://github.com/byexamples/byexample/tree/master/docs/languages/).
-
-Check out [where should I write the examples](https://byexamples.github.io/byexample/where-should-I-write-the-examples)
-section, it has a more in deep description.
-
-And also check the [usage](https://byexamples.github.io/byexample/usage) page
-for more examples.
-
-## Languages supported
-
-Currently we support:
-
- - [Python](https://byexamples.github.io/byexample/languages/python) (compatible with ``doctest``) -> *stable*
- - [Ruby](https://byexamples.github.io/byexample/languages/ruby) -> *experimental*
- - [Javascript](https://byexamples.github.io/byexample/languages/javascript) -> *experimental*
- - [Shell](https://byexamples.github.io/byexample/languages/shell) (``sh`` and ``bash``) -> *stable*
- - [GDB](https://byexamples.github.io/byexample/languages/gdb) -> *experimental*
- - [C/C++](https://byexamples.github.io/byexample/languages/cpp) (using ``cling``) -> *experimental*
-
-More languages will be supported in the future. Stay tuned.
-
-## Contributing
-
-First off, thanks for using and considering contributing to ``byexample``.
-
-We love to receive contributions from our community. There are tons of ways you
-can contribute
-
- - add support to new languages (Javascript, Julia, just listen to you heart). Check this [how to](https://byexamples.github.io/byexample/how-to-support-new-finders-and-languages).
- - misspelling? Improve to the documentation is more than welcome.
- - add more examples. How do you use ``byexample``? Give us your feedback!
- - is ``byexample`` producing a hard-to-debug diff or you found a bug? Create an issue in github.
-
-But don't be limited to those options. We keep our mind open to other useful
-contributions: write a tutorial or a blog, feature requests, social media...
-
-Check out our [CONTRIBUTING](https://github.com/byexamples/byexample/tree/master/CONTRIBUTING.md) guidelines and welcome!
-
-### Extend ``byexample``
-
-It is possible to extend ``byexample`` adding new ways to find examples in a
-document and/or to parse and run/interpret a new language or adding hooks to be
-called regardless of the language/interpreter.
-
-Check out [how to support new finders and languages](https://byexamples.github.io/byexample/how-to-support-new-finders-and-languages)
-and [how to hook to events with concerns](https://byexamples.github.io/byexample/how-to-hook-to-events-with-concerns) for
-a quick tutorials that shows exactly how to do that.
-
-You could also share your work and [contribute](https://github.com/byexamples/byexample/tree/master/CONTRIBUTING.md) to
-``byexample`` with your extensions.
 
 ## Versioning
 
