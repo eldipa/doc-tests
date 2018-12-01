@@ -17,6 +17,7 @@ is up to date!
 
 Currently ``byexample`` supports:
 
+<div class="logos">
   <div class="row">
     <div class="col-lg-4">
       <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/python_logo.png" alt="Python Logo" width="64" height="64" />
@@ -45,6 +46,7 @@ Currently ``byexample`` supports:
       <h3><a href="/{{ site.prefix }}/languages/cpp">C/C++</a></h3>
     </div>
   </div>
+</div>
 
 ## How do I get started?
 
