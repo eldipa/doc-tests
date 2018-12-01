@@ -13,18 +13,38 @@ in your documentation and validate them.
 You can always be sure that the examples are correct and your documentation
 is up to date!
 
+<img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/demo.gif" alt="Sorry, it seems that you cannot see the demo. Another excuse to install byexample and test it by yourself ;)" width="75%" height="75%">
+
 Currently ``byexample`` supports:
 
- - [Python](https://byexamples.github.io/byexample/languages/python) (compatible with ``doctest``)
- - [Ruby](https://byexamples.github.io/byexample/languages/ruby)
- - [Javascript](https://byexamples.github.io/byexample/languages/javascript)
- - [Shell](https://byexamples.github.io/byexample/languages/shell) (``sh`` and ``bash``)
- - [GDB](https://byexamples.github.io/byexample/languages/gdb)
- - [C/C++](https://byexamples.github.io/byexample/languages/cpp) (using [cling](https://github.com/root-project/cling))
-
-## Usage
-
-<img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/demo.gif" alt="Sorry, it seems that you cannot see the demo. Another excuse to install byexample and test it by yourself ;)" width="75%" height="75%">
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/python_logo.png" alt="Python Logo" width="64" height="64" />>
+      <h3><a href="/{{ site.prefix }}/languages/python">Python</a></h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/ruby_logo.png" alt="Ruby Logo" width="64" height="64" />>
+      <h3><a href="/{{ site.prefix }}/languages/ruby">Ruby</a></h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/bash_logo.png" alt="Bash Logo" width="64" height="64" />>
+      <h3><a href="/{{ site.prefix }}/languages/shell">Shell</a></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/gdb_logo.png" alt="GDB Logo" width="64" height="64" />>
+      <h3><a href="/{{ site.prefix }}/languages/gdb">GDB</a></h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/javascript_logo.png" alt="Javascript Logo" width="64" height="64" />>
+      <h3><a href="/{{ site.prefix }}/languages/javascript">Javascript</a></h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/logos/cpp_logo.png" alt="C++ Logo" width="64" height="64" />>
+      <h3><a href="/{{ site.prefix }}/languages/cpp">C/C++</a></h3>
+    </div>
+  </div>
 
 ## How do I get started?
 
