@@ -4,10 +4,10 @@ $ hash byexample                                    # byexample: +fail-fast
 -->
 
 <div class="demo">
-<img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/demo.gif" alt="Sorry, it seems that you cannot see the demo. Another excuse to install byexample and test it by yourself ;)" width="75%" height="75%">
+<img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/demo.gif" alt="Sorry, it seems that you cannot see the demo. Another excuse to install byexample and test it by yourself ;)" width="90%" height="90%">
 </div>
 
-# byexample is...
+## byexample is...
 
 ...a literate programming engine where you mix
 ordinary text and snippets of code in the same file and then you
