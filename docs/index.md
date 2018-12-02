@@ -3,19 +3,23 @@ Check that we have byexample installed first
 $ hash byexample                                    # byexample: +fail-fast
 -->
 
-``byexample`` is a literate programming engine where you mix
+<div class="demo">
+<img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/demo.gif" alt="Sorry, it seems that you cannot see the demo. Another excuse to install byexample and test it by yourself ;)" width="75%" height="75%">
+</div>
+
+# byexample is...
+
+...a literate programming engine where you mix
 ordinary text and snippets of code in the same file and then you
 execute them as regression tests.
-
-It lets you to execute the examples written in ``Python``, ``Ruby`` or whatever
-in your documentation and validate them.
 
 You can always be sure that the examples are correct and your documentation
 is up to date!
 
-<img src="https://raw.githubusercontent.com/byexamples/byexample/master/media/demo.gif" alt="Sorry, it seems that you cannot see the demo. Another excuse to install byexample and test it by yourself ;)" width="75%" height="75%">
+It lets you to execute the examples written in ``Python``, ``Ruby`` or whatever
+in your documentation and validate them.
 
-Currently ``byexample`` supports:
+Currently ``byexample`` supports the following languages:
 
 <div class="logos">
   <div class="row">
@@ -71,12 +75,17 @@ $ byexample -l python,ruby,shell README.md      # run it    # byexample: +skip
 [PASS] Pass: <...> Fail: <...> Skip: <...>
 ```
 
-You can select which languages to run, over which files, how to display the
-[differences](https://byexamples.github.io/byexample/differences) and much more.
+## License
 
-The [usage](https://byexamples.github.io/byexample/usage)
-document goes through almost all the flags that
-``byexample`` program has, full of examples of course.
+This project is licensed under GPLv3
+
+```shell
+$ head -n 2 LICENSE     # byexample: +norm-ws
+          GNU GENERAL PUBLIC LICENSE
+           Version 3, 29 June 2007
+```
+
+See [LICENSE](https://github.com/byexamples/byexample/tree/master/LICENSE.md) for more details.
 
 ## Versioning
 
@@ -104,16 +113,4 @@ byexample 7.4.3 (Python <...>) - GNU GPLv3
 Copyright (C) Di Paola Martin - https://github.com/byexamples/byexample
 <...>
 ```
-
-## License
-
-This project is licensed under GPLv3
-
-```shell
-$ head -n 2 LICENSE     # byexample: +norm-ws
-          GNU GENERAL PUBLIC LICENSE
-           Version 3, 29 June 2007
-```
-
-See [LICENSE](https://github.com/byexamples/byexample/tree/master/LICENSE.md) for more details.
 
